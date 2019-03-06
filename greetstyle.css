@@ -1,0 +1,40 @@
+body{
+	margin: 0;
+ 	padding: 25px;
+    background: url(inter.jpg);
+ 	background-size: cover;
+	font-family: sans-serif;
+	font-size: 25px;
+}
+.greet-box{
+	width: 410px;
+	height: 300px;
+	padding: 50px 30px;
+	background: rgba(31, 43, 65, 0.8);
+	color: white;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	box-shadow: 0 20px 30px rgba(1,0,0,0.5);
+	border-radius: 20px;
+	text-align: center;
+}
+.logo{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+.cong{
+	color: #F7A3FF;
+}
+a{
+	color: #DEAEFF;
+}
+a:hover{
+	color: #BA5E80;
+}

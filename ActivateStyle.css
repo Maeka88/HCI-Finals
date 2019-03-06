@@ -1,14 +1,15 @@
 body{
 	margin: 0;
  	padding: 25px;
-    background: url(sampaguita.png);
+    background: url(inter.jpg);
  	background-size: cover;
 	font-family: sans-serif;
 }
-.main{
+.active-box{
 	width: 400px;
-	padding: 40px;
-	background: rgba(183, 56, 136, 0.56);
+	height: 578px;
+	padding: 70px 30px;
+	background: rgba(12, 23, 79, 0.69);
 	color: white;
 	top: 50%;
 	left: 50%;
@@ -24,50 +25,43 @@ body{
 	height: 100px;
 	border-radius: 50%;
 	position: absolute;
-	top: -65px;
+	top: -60px;
 	left: calc(50% - 50px);
 }
-.inputText{
-	position: relative;
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 25px;
 }
-.inputText input{
-	width: 100%;
-	padding: 10px 0;
-	font-size: 16px;
-	color: #fff;
-	letter-spacing: 1px;
-	margin-bottom: 30px;
-	border: none;
-	border-bottom: 3px solid #fff;
-	outline: none;
-	background: transparent;
+::-webkit-input-placeholder{
+  	color: white;
+  	opacity: 0.6;
+}
+p{
+	margin: 0;
+	padding: 0;
 	text-align: left;
-}
-.inputText label{
-	position: absolute;
-	top: 0;
-	left: 0;
-	padding: 10px 0;
-	font-size: 16px;
+	line-height: normal;
 	font-weight: bold;
-	color: #fff;
 	letter-spacing: 1px;
-	pointer-events: none;
-	transition: .5s;
 }
-.inputText input:focus ~ label,
-.inputText input:valid ~ label
-{
-	top: -18px;
-	left: 0;
+.text-field{
+	width: 70%;
+	margin-bottom: 20px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
 	color: #fff;
-	font-size: 12px;
+	font-size: 16px;
 }
-input[type="button"]{
+.button-field{
 	background: transparent;
 	border: none;
 	outline: none;
-	background: #38267F;
+	background: #BA5E80;
 	color: white;
 	padding: 10px 20px;
 	cursor: pointer;
@@ -76,15 +70,8 @@ input[type="button"]{
 	font-size: 16px;
 	padding: 10px 50px;
 }
-input[type="button"]:hover{
-	background: white;
-	color: black;
+.button-field:hover{
+	background: #3947BA;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 	cursor: pointer;
-}
-a{
-	color: white;
-}
-a:hover{
-	color: #81E7FF;
 }
