@@ -1,21 +1,21 @@
 body{
 	margin: 0;
  	padding: 25px;
-    background: url(sampaguita.png);
+    background: url(sampaguita.png) 0 0 no-repeat fixed;
  	background-size: cover;
 	font-family: sans-serif;
 }
 .main{
 	width: 400px;
 	padding: 40px;
-	background: rgba(183, 56, 136, 0.56);
+	background: rgba(183, 56, 136, 0.90);
 	color: white;
 	top: 50%;
 	left: 50%;
 	position: absolute;
 	transform: translate(-50%, -50%);
 	box-sizing: border-box;
-	box-shadow: 0 20px 30px rgba(1,0,0,0.5);
+	box-shadow: 0 20px 30px rgba(1,0,0,0.9);
 	border-radius: 20px;
 	text-align: center;
 }
@@ -83,8 +83,8 @@ body{
 	cursor: pointer;
 }
 a{
-	color: white;
+	color: #38267F;
 }
 a:hover{
-	color: #38267F;
+	color: #F5D4FF;
 }

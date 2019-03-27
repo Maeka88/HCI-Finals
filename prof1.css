@@ -6,22 +6,46 @@ body{
 }
 .box{
 	width: 450px;
-	background: rgba(0,0,0,0.90);
+	height: 570px;
+	background: rgba(92, 97, 101, 0.9);
 	padding: 40px;
 	text-align: center;
 	color: white;
 	margin: auto;
-	margin-top: 5%;
+	margin-top: 5px;
 	font-family: Helvetica;
-
+	border-radius: 5%;
+	box-shadow: 0 20px 30px rgba(1,0,0,0.5);
 }
 .box-img{
 	width: 210px;
 	height: 300px;
-	border-radius: 50%;
+	border-radius: 80%;
 }
 .box h1{
 	font-size: 40px;
 	letter-spacing: 4px;
-	
+	line-height: 40px;
+}
+.text{
+	line-height: 20px;
+}
+.button-field{
+	background: transparent;
+	border: none;
+	outline: none;
+	background: #C337CC;
+	color: white;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	border-width: 10px;
+	font-size: 16px;
+	padding: 8px 50px;
+}
+.button-field:hover{
+	background: #38267F;
+	color: white;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	cursor: pointer;
 }

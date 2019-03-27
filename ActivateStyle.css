@@ -1,17 +1,17 @@
 body{
 	margin: 0;
  	padding: 25px;
-    background: url(inter.jpg);
+    background: url(inter.jpg) 0 0 no-repeat fixed;
  	background-size: cover;
 	font-family: sans-serif;
 }
 .active-box{
 	width: 400px;
-	height: 578px;
-	padding: 70px 30px;
-	background: rgba(12, 23, 79, 0.69);
+	height: 530px;
+	padding: 50px 40px;
+	background: rgba(12, 23, 79, 0.90);
 	color: white;
-	top: 50%;
+	top: 53%;
 	left: 50%;
 	position: absolute;
 	transform: translate(-50%, -50%);
@@ -25,7 +25,7 @@ body{
 	height: 100px;
 	border-radius: 50%;
 	position: absolute;
-	top: -60px;
+	top: -65px;
 	left: calc(50% - 50px);
 }
 h1{
@@ -47,7 +47,7 @@ p{
 	letter-spacing: 1px;
 }
 .text-field{
-	width: 70%;
+	width: 90%;
 	margin-bottom: 20px;
 	border: none;
 	border-bottom: 1px solid #fff;
@@ -56,6 +56,7 @@ p{
 	height: 40px;
 	color: #fff;
 	font-size: 16px;
+	text-align: center;
 }
 .button-field{
 	background: transparent;
